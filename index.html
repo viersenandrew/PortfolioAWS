@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="navbar-container" id="navbar-container">
+        <div class="navbar-item-container" id="resume"><p class="resume-text"><a href="" class="navbar-link" id="resume-link">Resume</a></p></div>
+        <div class="navbar-item-container" id="portfolio"><p class="portfolio-text"><a href="" class="navbar-link" id="portfolio-link">Portfolio</a></p></div>
+        <div class="navbar-item-container" id="projects"><p class="projects-text"><a href="" class="navbar-link" id="projects-link">Projects</a></p></div>
+        <div class="hamburger-container" id="hamburger-container">
+            <a href="" class="hamburger-link" id="hamburger-link">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            </a>
+        </div>
+    </div>
+    <div class="color-picker-box" id="color-picker-box" hidden> 
+        <div class="color-picker-container" id="color-picker-container">
+            <div class="color-option">
+                <p class="color-picker-text">Select the primary background color <input type="color" name="" id="color-picker1" class="color-picker" value=""></p> 
+            </div>
+            <div class="color-option">
+                <p class="color-picker-text">Select the secondary background color <input type="color" name="" id="color-picker2" class="color-picker" value=""></p> 
+            </div>
+            <div class="color-option">
+                <p class="color-picker-text">Select the tertiary background color <input type="color" name="" id="color-picker3" class="color-picker" value=""></p> 
+            </div>
+            <div class="color-option">
+                <p class="color-picker-text">Select the primary text color <input type="color" name="" id="color-picker4" class="color-picker" value=""></p> 
+            </div>
+            <div class="color-option">
+                <p class="color-picker-text">Select the secondary text color <input type="color" name="" id="color-picker5" class="color-picker" value=""></p> 
+            </div>
+            <div class="color-option">
+                <p class="color-picker-text">Select the tertiary text color <input type="color" name="" id="color-picker6" class="color-picker" value=""></p> 
+            </div>
+        </div>
+    </div>
+    <div class="content-container" id="content-container">
+        <!-- Resume content -->
+        <div class="resume-container" id="resume-container" hidden>
+            <div class="name-section" id="name-section">
+                <p class="name">Andrew Viersen</p>
+                <p class="email"><a href="mailto:work.andrewviersen@gmail.com" class="email">work.andrewviersen@gmail.com</a></p>
+                <p class="number">(321) -331-7058</p>
+                <p class="linkedin"><a href="https://www.linkedin.com/in/andrew-viersen-078031235/" target="_blank">LinkedIn</a></p>
+            </div>
+            <div class="aboutme" id="aboutme">
+                <p class="aboutme-text">
+                    Andrew Viersen combines expertise in game development, web design, and cloud computing to create innovative and engaging solutions. His background in developing open-world RPGs and complex gameplay systems with tools like Godot and C# gives him a unique perspective on design and development.
+By blending technical skills with creative storytelling, Andrew approaches projects with a nuanced understanding that ensures both functionality and immersion. Whether building scalable web applications with AWS and JavaScript or crafting interactive game worlds, he delivers work that is both impactful and user-focused.
+                </p>
+            </div>
+            <!-- experience section  -->
+            <div class="description-section" id="description-section">
+                <div class="company-name" id="company1"><p class="company-name-text">Ora Creek LLC</p></div>
+                <div class="title-year-container">
+                    <div class="job-title"><p class="title-text">Research and QA Specialist – AI/LLM Solutions Engineering</p></div>
+                    <div class="job-year"><p class="year-text">November 2023 – Present</p></div>
+                </div>
+                <div class="description-text-container">
+                    <ul class="description-text">
+                        <li>Conducted research to optimize AI-driven solutions using large language models (LLMs).</li>
+                        <li>Performed QA testing on AI/LLM systems to ensure high performance and accuracy.</li>
+                        <li>Validated datasets and data pipelines to maintain data integrity and system reliability.</li>
+                        <li>Analyzed performance metrics and provided actionable insights for system improvements.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- experience section  -->
+            <div class="experience-section1" id="experience-section1">
+                <div class="company-name" id="company2"><p class="company-name-text">eSmokerOnline</p></div>
+                <div class="title-year-container">
+                    <div class="job-title"><p class="title-text">Online Store Manager + Store Manager</p></div>
+                    <div class="job-year"><p class="year-text">April 2023 – Present</p></div>
+                </div>
+                <div class="description-text-container">
+                    <ul class="description-text">
+                        <li>Oversaw eCommerce operations, increasing monthly sales by 20% through improved order management.</li>
+                        <li>Implemented security practices, reducing losses by 30%.</li>
+                        <li>Troubleshot and resolved website issues, ensuring a seamless user experience.</li>
+                        <li>Handled customer service, maintaining high satisfaction levels and fostering long-term relationships.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Project Communicate section -->
+            <div class="experience-section2" id="experience-section2">
+                <div class="company-name" id="company3"><p class="company-name-text">Project Communicate</p></div>
+                <div class="title-year-container">
+                    <div class="job-title"><p class="title-text">Creator – Application Developer</p></div>
+                    <div class="job-year"><p class="year-text">July 2023 – Present</p></div>
+                </div>
+                <div class="description-text-container">
+                    <ul class="description-text">
+                        <li>Built a web application to track emotions, journal entries, and events using HTML, CSS, and JavaScript.</li>
+                        <li>Integrated JSON-based data storage for efficient data handling and retrieval.</li>
+                        <li>Conducted usability testing to refine functionality and enhance the user experience.</li>
+                        <li>Authored technical documentation to support updates and scalability.</li>
+                    </ul>
+                    <p><a href="" class="show-more-button" id="communicate-screenshot-button">More...</a></p>
+                </div>
+                <div class="expanded-project-communicate" id="expanded-project-communicate" hidden>
+                    <div class="screenshot-section" id="screenshot-section">
+                        <div class="screenshot" id="screenshot">
+                            <img src="" alt="project-screenshot">
+                            <p><a href="" class="show-less-button" id="communicate-less-button">Less</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Project Isekai section -->
+            <div class="experience-section3" id="experience-section3">
+                <div class="company-name" id="company4"><p class="company-name-text">Project Isekai</p></div>
+                <div class="title-year-container">
+                    <div class="job-title"><p class="title-text">Creator – Game Developer</p></div>
+                    <div class="job-year"><p class="year-text">July 2023 – Present</p></div>
+                </div>
+                <div class="description-text-container">
+                    <ul class="description-text">
+                        <li>Developed a 2D open-world adventure RPG using Godot .NET and C#.</li>
+                        <li>Architected a JSON-style data-driven system to manage assets and in-game interactions.</li>
+                        <li>Designed immersive game mechanics and developed an event-driven runtime system.</li>
+                        <li>Documented development processes to facilitate future improvements.</li>
+                    </ul>
+                    <p><a href="" class="show-more-button" id="isekai-screenshot-button">More...</a></p>
+                </div>
+                <div class="expanded-project-isekai" id="expanded-project-isekai" hidden>
+                    <div class="screenshot-section" id="screenshot-section">
+                        <div class="screenshot" id="screenshot">
+                            <img src="" alt="project-screenshot">
+                            <p><a href="" class="show-less-button" id="isekai-less-button">Less</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Collision Gate MVP section -->
+            <div class="experience-section4" id="experience-section4">
+                <div class="company-name" id="company5"><p class="company-name-text">Collision Gate MVP</p></div>
+                <div class="title-year-container">
+                    <div class="job-title"><p class="title-text">Creator – Game Designer & Junior Developer</p></div>
+                    <div class="job-year"><p class="year-text">November 2021 – January 2022</p></div>
+                </div>
+                <div class="description-text-container">
+                    <ul class="description-text">
+                        <li>Designed and tested core gameplay systems, including hundreds of unique trading cards.</li>
+                        <li>Conducted QA testing and facilitated communication between teams for smooth development.</li>
+                        <li>Authored technical specifications and design documents to guide development efforts.</li>
+                    </ul>
+                    <p><a href="" class="show-more-button" id="gate-screenshot-button">More...</a></p>
+                </div>
+                <div class="expanded-project-gate" id="expanded-project-gate" hidden>
+                    <div class="screenshot-section" id="screenshot-section">
+                        <div class="screenshot" id="screenshot">
+                            <img src="" alt="project-screenshot">
+                            <p><a href="" class="show-less-button" id="gate-less-button">Less</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Content  -->
+        <div class="portfolio-container" id="portfolio-container">
+
+            <div class="name-section" id="name-section">
+                <p class="name">Andrew Viersen</p>
+                <p class="email"><a href="mailto:work.andrewviersen@gmail.com" class="email">work.andrewviersen@gmail.com</a></p>
+                <p class="number">(321) -331-7058</p>
+                <p class="linkedin"><a href="https://www.linkedin.com/in/andrew-viersen-078031235/" target="_blank">LinkedIn</a></p>
+            </div>
+            <div class="aboutme" id="aboutme">
+                <p class="aboutme-text">
+                    Andrew Viersen combines expertise in game development, web design, and cloud computing to create innovative and engaging solutions. His background in developing open-world RPGs and complex gameplay systems with tools like Godot and C# gives him a unique perspective on design and development.
+By blending technical skills with creative storytelling, Andrew approaches projects with a nuanced understanding that ensures both functionality and immersion. Whether building scalable web applications with AWS and JavaScript or crafting interactive game worlds, he delivers work that is both impactful and user-focused.
+                </p>
+                <div class="black-seperator" id="black-seperator"></div>
+                <p class="content-selection-description" id="content-selection-description">
+                    In the interest of streamlining your experience through my portfolio, please select one of the following options:
+                </p>
+            </div>
+            <div class="content-button-container" id="content-button-container">
+                <p class="content-selection-button">
+                    <a href="" class="content-selection-link" id="content-selection-link-frontend">Frontend</a>
+                </p>
+                <p class="content-selection-button">
+                    <a href="" class="content-selection-link" id="content-selection-link-game">Game Design + Game Development</a>
+                </p>
+                <p class="content-selection-button">
+                    <a href="" class="content-selection-link" id="content-selection-link-cloud">Cloud Engineering</a>
+                </p>
+            </div>
+            <!-- Frontend Content -->
+            <div class="hidden-portfolio-content-container">
+                <div class="hidden-portfolio-content" id="frontend-content" hidden>
+                    <div class="frontend-object" id="frontend-project1">
+                        <div class="portfolio-object-container" id="frontend-project1-item1">
+                            <div class="portfolio-object-decription">
+                                <h1>Personal Webite</h1>
+                                <p class="portfolio-object-text">
+                                    It has come to my attention that it is a cardinal sin to use a website builder as a frontend developer
+                                    so I set out to make my website as modern as possible while putting my personal design philosphy on display. 
+                                    This website exists on a single webpage and loads information based on user input. This was my attempt 
+                                    to take the design structure of event-driven systems to frontend design. 
+                                </p>
+                                <img src="" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot1">
+                                <p class="portfolio-object-text">
+                                    Since the purpose of a resume website is to create a single static page
+                                    that displays as much of my abilities as possible while not overwhelming
+                                    the user (that's you) all content on this page is marked as hidden until 
+                                    the user needs it. 
+                                </p>
+                                <img src="" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot2">
+                                <p class="portfolio-object-text">
+                                    In recent years it's also become standard for websites to be both dynamic and customizable.
+                                    So this website does include a light mode. However I believe in customization, 
+                                    so if you press the hamburger menu above you'll notice you can apply your own colors to the website.
+                                </p>
+                                <img src="" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot3">
+                                
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="frontend-project1-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="frontend-project1-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frontend-object" id="frontend-project2">
+                        <div class="portfolio-object-container" id="frontend-project2-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="frontend-project2-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="frontend-project2-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frontend-object" id="frontend-project3">
+                        <div class="portfolio-object-container" id="frontend-project3-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="frontend-project3-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="frontend-project3-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Game Content -->
+            <div class="hidden-portfolio-content-container">
+                <div class="hidden-portfolio-content" id="game-content" hidden>
+                    <div class="game-object" id="game-project1">
+                        <div class="portfolio-object-container" id="game-project1-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="game-project1-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="game-project1-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game-object" id="game-project2">
+                        <div class="portfolio-object-container" id="game-project2-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="game-project2-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="game-project2-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game-object" id="game-project3">
+                        <div class="portfolio-object-container" id="game-project3-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="game-project3-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="game-project3-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cloud Content -->
+            <div class="hidden-portfolio-content-container">
+                <div class="hidden-portfolio-content" id="cloud-content" hidden>
+                    <div class="cloud-object" id="cloud-project1">
+                        <div class="portfolio-object-container" id="cloud-project1-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="cloud-project1-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="cloud-project1-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cloud-object" id="cloud-project2">
+                        <div class="portfolio-object-container" id="cloud-project2-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="cloud-project2-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="cloud-project2-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cloud-object" id="cloud-project3">
+                        <div class="portfolio-object-container" id="cloud-project3-item1">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="cloud-project3-item2">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                        <div class="portfolio-object-container" id="cloud-project3-item3">
+                            <div class="portfolio-object-decription">
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Projects Content  -->
+        <div class="projects-container" id="projects-container" hidden>
+            <div class="name-section" id="name-section">
+                <p class="name">Andrew Viersen</p>
+                <p class="email"><a href="mailto:work.andrewviersen@gmail.com" class="email">work.andrewviersen@gmail.com</a></p>
+                <p class="number">(321) -331-7058</p>
+                <p class="linkedin"><a href="https://www.linkedin.com/in/andrew-viersen-078031235/" target="_blank">LinkedIn</a></p>
+            </div>
+            <div class="aboutme" id="aboutme">
+                <p class="aboutme-text">
+                    Andrew Viersen combines expertise in game development, web design, and cloud computing to create innovative and engaging solutions. His background in developing open-world RPGs and complex gameplay systems with tools like Godot and C# gives him a unique perspective on design and development.
+    By blending technical skills with creative storytelling, Andrew approaches projects with a nuanced understanding that ensures both functionality and immersion. Whether building scalable web applications with AWS and JavaScript or crafting interactive game worlds, he delivers work that is both impactful and user-focused.
+                </p>
+            </div>
+        </div>  
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
