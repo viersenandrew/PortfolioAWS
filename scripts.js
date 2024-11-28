@@ -3,7 +3,7 @@ var resumeShown = document.getElementById("resume-container");
 var portfolioShown = document.getElementById("portfolio-container");
 var projectsShown = document.getElementById("projects-container");
 
-// Portfolio Variables
+// Resume Variables
 var communicateScreenshotShown = document.getElementById("expanded-project-communicate");
 var isekaiScreenshotShown = document.getElementById("expanded-project-isekai");
 var gateScreenshotShown = document.getElementById("expanded-project-gate");
@@ -16,6 +16,9 @@ var gateMoreButtonShown = document.getElementById("gate-screenshot-button");
 var communicateLessButtonShown = document.getElementById("communicate-less-button");
 var isekaiLessButtonShown = document.getElementById("isekai-less-button");
 var gateLessButtonShown = document.getElementById("gate-less-button");
+
+// Portfolio Variables
+
 
 
 
@@ -128,6 +131,47 @@ document.getElementById("content-selection-link-frontend").addEventListener("cli
     frontendContentShown.hidden = !frontendContentShown.hidden;
     gameContentShown.hidden = true;
     cloudContentShown.hidden = true;
+});
+
+var personalWebsiteReturnShown = document.getElementById("return-content-button-proj1item1");
+var personalWebsiteShown = document.getElementById("frontend-project1-item1");
+
+var onlineStorefrontReturnShown = document.getElementById("return-content-button-proj1item2");
+var onlineStorefrontWebsiteShown = document.getElementById("frontend-project1-item2");
+
+var thirdReturnShown = document.getElementById("return-content-button-proj1item3")
+var thirdWebsiteShown = document.getElementById("frontend-project1-item3");
+// Frontend Portfolio Logic
+document.getElementById("personal-website-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    personalWebsiteShown.hidden = !personalWebsiteShown.hidden;
+    personalWebsiteReturnShown.hidden = !personalWebsiteReturnShown.hidden;
+});
+document.getElementById("return-content-button-proj1item1").addEventListener("click", function(event) {
+    event.preventDefault();
+    personalWebsiteShown.hidden = !personalWebsiteShown.hidden;
+    personalWebsiteReturnShown.hidden = !personalWebsiteReturnShown.hidden;
+    
+});
+document.getElementById("online-storefront-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    onlineStorefrontWebsiteShown.hidden = !onlineStorefrontWebsiteShown.hidden;
+    onlineStorefrontReturnShown.hidden = !onlineStorefrontReturnShown.hidden;
+});
+document.getElementById("return-content-button-proj1item2").addEventListener("click", function(event) {
+    event.preventDefault();
+    onlineStorefrontWebsiteShown.hidden = !onlineStorefrontWebsiteShown.hidden;
+    onlineStorefrontReturnShown.hidden = !onlineStorefrontReturnShown.hidden;
+});
+document.getElementById("third-website-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    thirdWebsiteShown.hidden = !thirdWebsiteShown.hidden;
+    thirdReturnShown.hidden = !thirdReturnShown.hidden;
+});
+document.getElementById("return-content-button-proj1item3").addEventListener("click", function(event) {
+    event.preventDefault();
+    thirdWebsiteShown.hidden = !thirdWebsiteShown.hidden;
+    thirdReturnShown.hidden = !thirdReturnShown.hidden;
 });
 document.getElementById("content-selection-link-game").addEventListener("click", function(event){
     event.preventDefault();

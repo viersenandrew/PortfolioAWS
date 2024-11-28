@@ -7,6 +7,7 @@
     --text-color3: #3c3c3c;
 }
 body {
+    font-family: "Libre Bodoni", serif;
     background-color: var(--background-color3);
 }
 /* Navbar */
@@ -29,9 +30,10 @@ body {
 }
 .hamburger {
     opacity: 90%;
-    background-color: var(--text-color1);
+    background-color: black;
     width: 25;
     height: 5px;
+    border: 1px solid darkgray;
     border-radius: 10px;
     margin: 1px;
 }
@@ -49,21 +51,45 @@ body {
     border-radius: 15px;
     width: 450px;
     height: 350px;
+}
+.color-picker-organizer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.color-option-text-container {
+    width: 70%;
+    height: 100%;
     display: grid;
-    justify-content: center;
+    justify-content: left;
+    text-align: left;
+}
+.color-option-picker-container {
+    width: 20%;
+    height: 100%;
+    margin: 20px auto;
+    display: grid;
+    justify-content: left;
+}
+.small-space {
+    width: 5%;
+    height: 100%;
 }    
 .color-picker-text {
+    padding: 2px;
     text-align: left;
     color: var(--text-color1);
+    height: 20px;
+    width: 100%;
+    border: 1px solid black;
 }
 .color-picker {
-    padding: 0;
-    margin: 0 auto;
+    margin: -4.5px 0;
     text-decoration: none;
-    border: transparent;
-    background-color: transparent;
+    background-color: black;
     width: 35px;
-    height: 20px;
+    height: 25px;
+    border: transparent;
 }
 .color-option {
     display: grid;
@@ -120,6 +146,10 @@ body {
     font-size: large;
     font-weight: bolder;
     padding: 5px;
+    position: relative;
+    top: 0px;
+    left: 45%;
+    transform: translate(-50%, -50%);
     color: var(--text-color2);
     background-color: var(--background-color2);
     border: var(--text-color2) 2px solid;
@@ -171,4 +201,9 @@ body {
 .hidden-portfolio-content {
     margin: 0 20px; 
     text-align: left;
+}
+.portfolio-screenshot {
+    width: 100%;
+    border-radius: 15px;
+    border: 5px solid var(--text-color3);
 }

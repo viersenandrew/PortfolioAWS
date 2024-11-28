@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
@@ -21,23 +24,37 @@
     </div>
     <div class="color-picker-box" id="color-picker-box" hidden> 
         <div class="color-picker-container" id="color-picker-container">
-            <div class="color-option">
-                <p class="color-picker-text">Select the primary background color <input type="color" name="" id="color-picker1" class="color-picker" value=""></p> 
-            </div>
-            <div class="color-option">
-                <p class="color-picker-text">Select the secondary background color <input type="color" name="" id="color-picker2" class="color-picker" value=""></p> 
-            </div>
-            <div class="color-option">
-                <p class="color-picker-text">Select the tertiary background color <input type="color" name="" id="color-picker3" class="color-picker" value=""></p> 
-            </div>
-            <div class="color-option">
-                <p class="color-picker-text">Select the primary text color <input type="color" name="" id="color-picker4" class="color-picker" value=""></p> 
-            </div>
-            <div class="color-option">
-                <p class="color-picker-text">Select the secondary text color <input type="color" name="" id="color-picker5" class="color-picker" value=""></p> 
-            </div>
-            <div class="color-option">
-                <p class="color-picker-text">Select the tertiary text color <input type="color" name="" id="color-picker6" class="color-picker" value=""></p> 
+            <div class="color-picker-organizer">
+                <div class="small-space"></div>
+                <div class="color-option-text-container" id="color-option-text-container">
+                    <div class="color-option">
+                        <p class="color-picker-text">Select the primary background color:</p> 
+                    </div>
+                    <div class="color-option">
+                        <p class="color-picker-text">Select the secondary background color:</p> 
+                    </div>
+                    <div class="color-option">
+                        <p class="color-picker-text">Select the tertiary background color:</p> 
+                    </div>
+                    <div class="color-option">
+                        <p class="color-picker-text">Select the primary text color:</p> 
+                    </div>
+                    <div class="color-option">
+                        <p class="color-picker-text">Select the secondary text color:</p> 
+                    </div>
+                    <div class="color-option">
+                        <p class="color-picker-text">Select the tertiary text color:</p> 
+                    </div>
+                </div>
+                <div class="color-option-picker-container" id="color-option-picker-container">
+                    <input type="color" name="" id="color-picker1" class="color-picker" value="">
+                    <input type="color" name="" id="color-picker2" class="color-picker" value="">
+                    <input type="color" name="" id="color-picker3" class="color-picker" value="">
+                    <input type="color" name="" id="color-picker4" class="color-picker" value="">
+                    <input type="color" name="" id="color-picker5" class="color-picker" value="">
+                    <input type="color" name="" id="color-picker6" class="color-picker" value="">
+                </div>
+                <div class="small-space"></div>
             </div>
         </div>
     </div>
@@ -199,34 +216,38 @@ By blending technical skills with creative storytelling, Andrew approaches proje
             <!-- Frontend Content -->
             <div class="hidden-portfolio-content-container">
                 <div class="hidden-portfolio-content" id="frontend-content" hidden>
+                    <div class="return-content-button" id="return-content-button-proj1item1" hidden><a href=""><p class="return-content-button-text">Reveal Personal Website</p></a></div>
                     <div class="frontend-object" id="frontend-project1">
                         <div class="portfolio-object-container" id="frontend-project1-item1">
                             <div class="portfolio-object-decription">
-                                <h1>Personal Webite</h1>
+                                <a href="" class="personal-website-buton" id="personal-website-button"><h1>Personal Webite</h1></a>
                                 <p class="portfolio-object-text">
                                     It has come to my attention that it is a cardinal sin to use a website builder as a frontend developer
                                     so I set out to make my website as modern as possible while putting my personal design philosphy on display. 
                                     This website exists on a single webpage and loads information based on user input. This was my attempt 
                                     to take the design structure of event-driven systems to frontend design. 
                                 </p>
-                                <img src="" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot1">
+                                <img src="personalScreenshotOne.png" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot1">
                                 <p class="portfolio-object-text">
                                     Since the purpose of a resume website is to create a single static page
                                     that displays as much of my abilities as possible while not overwhelming
                                     the user (that's you) all content on this page is marked as hidden until 
                                     the user needs it. 
                                 </p>
-                                <img src="" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot2">
+                                <img src="personalScreenshotTwo.png" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot2">
                                 <p class="portfolio-object-text">
                                     In recent years it's also become standard for websites to be both dynamic and customizable.
                                     So this website does include a light mode. However I believe in customization, 
                                     so if you press the hamburger menu above you'll notice you can apply your own colors to the website.
                                 </p>
-                                <img src="" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot3">
+                                <img src="personalScreenshotThree.png" alt="personal-website-image" class="portfolio-screenshot" id="personal-website-screenshot3">
                                 
                             </div>
                         </div>
+                    </div>
+                        <div class="return-content-button" id="return-content-button-proj1item2" hidden><a href=""><p class="return-content-button-text">Reveal Second Portfolio Website</p></a></div>
                         <div class="portfolio-object-container" id="frontend-project1-item2">
+                            <a href="" class="personal-website-button" id="online-storefront-button"><h1>Online Storefront</h1></a>
                             <div class="portfolio-object-decription">
                                 <p class="portfolio-object-text"></p>
                                 <p class="portfolio-object-text"></p>
@@ -234,7 +255,9 @@ By blending technical skills with creative storytelling, Andrew approaches proje
 
                             </div>
                         </div>
+                        <div class="return-content-button" id="return-content-button-proj1item3" hidden><a href=""><p class="return-content-button-text">Reveal Third Portfolio Website</p></a></div>
                         <div class="portfolio-object-container" id="frontend-project1-item3">
+                            <a href="" class="personal-website-button" id="third-website-button"><h1>Third Website</h1></a>
                             <div class="portfolio-object-decription">
                                 <p class="portfolio-object-text"></p>
                                 <p class="portfolio-object-text"></p>
@@ -299,8 +322,7 @@ By blending technical skills with creative storytelling, Andrew approaches proje
             </div>
             <!-- Game Content -->
             <div class="hidden-portfolio-content-container">
-                <div class="hidden-portfolio-content" id="game-content" hidden>
-                    <div class="game-object" id="game-project1">
+                <div class                 <div class="game-object" id="game-project1">
                         <div class="portfolio-object-container" id="game-project1-item1">
                             <div class="portfolio-object-decription">
                                 <p class="portfolio-object-text"></p>
