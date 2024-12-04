@@ -133,6 +133,7 @@ document.getElementById("content-selection-link-frontend").addEventListener("cli
     cloudContentShown.hidden = true;
 });
 
+
 var personalWebsiteReturnShown = document.getElementById("return-content-button-proj1item1");
 var personalWebsiteShown = document.getElementById("frontend-project1-item1");
 
@@ -142,7 +143,7 @@ var onlineStorefrontWebsiteShown = document.getElementById("frontend-project1-it
 var thirdReturnShown = document.getElementById("return-content-button-proj1item3")
 var thirdWebsiteShown = document.getElementById("frontend-project1-item3");
 // Frontend Portfolio Logic
-document.getElementById("personal-website-button").addEventListener("click", function(event) {
+document.getElementById("first-website-button").addEventListener("click", function(event) {
     event.preventDefault();
     personalWebsiteShown.hidden = !personalWebsiteShown.hidden;
     personalWebsiteReturnShown.hidden = !personalWebsiteReturnShown.hidden;
@@ -153,7 +154,7 @@ document.getElementById("return-content-button-proj1item1").addEventListener("cl
     personalWebsiteReturnShown.hidden = !personalWebsiteReturnShown.hidden;
     
 });
-document.getElementById("online-storefront-button").addEventListener("click", function(event) {
+document.getElementById("second-website-button").addEventListener("click", function(event) {
     event.preventDefault();
     onlineStorefrontWebsiteShown.hidden = !onlineStorefrontWebsiteShown.hidden;
     onlineStorefrontReturnShown.hidden = !onlineStorefrontReturnShown.hidden;
@@ -173,15 +174,124 @@ document.getElementById("return-content-button-proj1item3").addEventListener("cl
     thirdWebsiteShown.hidden = !thirdWebsiteShown.hidden;
     thirdReturnShown.hidden = !thirdReturnShown.hidden;
 });
-document.getElementById("content-selection-link-game").addEventListener("click", function(event){
+// Portfolio Game Logic
+document.getElementById("content-selection-link-game").addEventListener("click", function(event) {
     event.preventDefault();
     gameContentShown.hidden = !gameContentShown.hidden;
     frontendContentShown.hidden = true;
     cloudContentShown.hidden = true;
 });
-document.getElementById("content-selection-link-cloud").addEventListener("click", function(event){
+
+// Game Portfolio Logic
+var projectIsekaiReturnShown = document.getElementById("return-content-button-proj2item1");
+var projectIsekaiShown = document.getElementById("game-project1-item1");
+
+var collisionTamerReturnShown = document.getElementById("return-content-button-proj2item2");
+var collisionTamerShown = document.getElementById("game-project1-item2");
+
+var collisionGateReturnShown = document.getElementById("return-content-button-proj2item3");
+var collisionGateShown = document.getElementById("game-project1-item3");
+
+// Toggle Project Isekai
+document.getElementById("first-game-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    projectIsekaiShown.hidden = !projectIsekaiShown.hidden;
+    projectIsekaiReturnShown.hidden = !projectIsekaiReturnShown.hidden;
+});
+document.getElementById("return-content-button-proj2item1").addEventListener("click", function(event) {
+    event.preventDefault();
+    projectIsekaiShown.hidden = !projectIsekaiShown.hidden;
+    projectIsekaiReturnShown.hidden = !projectIsekaiReturnShown.hidden;
+});
+
+// Toggle Collision Tamer
+document.getElementById("second-game-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    collisionTamerShown.hidden = !collisionTamerShown.hidden;
+    collisionTamerReturnShown.hidden = !collisionTamerReturnShown.hidden;
+});
+document.getElementById("return-content-button-proj1item2").addEventListener("click", function(event) {
+    event.preventDefault();
+    collisionTamerShown.hidden = !collisionTamerShown.hidden;
+    collisionTamerReturnShown.hidden = !collisionTamerReturnShown.hidden;
+});
+
+// Toggle Collision Gate
+document.getElementById("third-game-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    collisionGateShown.hidden = !collisionGateShown.hidden;
+    collisionGateReturnShown.hidden = !collisionGateReturnShown.hidden;
+});
+document.getElementById("return-content-button-proj1item3").addEventListener("click", function(event) {
+    event.preventDefault();
+    collisionGateShown.hidden = !collisionGateShown.hidden;
+    collisionGateReturnShown.hidden = !collisionGateReturnShown.hidden;
+});
+
+
+
+
+
+
+// Cloud Content Logic
+
+
+
+document.getElementById("content-selection-link-cloud").addEventListener("click", function(event) {
     event.preventDefault();
     cloudContentShown.hidden = !cloudContentShown.hidden;
     frontendContentShown.hidden = true;
     gameContentShown.hidden = true;
 });
+
+var cloudProject1ReturnShown = document.getElementById("return-content-button-cloud1item1");
+var cloudProject1Shown = document.getElementById("cloud-project1-item1");
+
+var cloudProject2ReturnShown = document.getElementById("return-content-button-cloud1item2");
+var cloudProject2Shown = document.getElementById("cloud-project1-item2");
+
+var cloudProject3ReturnShown = document.getElementById("return-content-button-cloud1item3");
+var cloudProject3Shown = document.getElementById("cloud-project1-item3");
+
+document.getElementById("first-cloud-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    cloudProject1Shown.hidden = !cloudProject1Shown.hidden;
+    cloudProject1ReturnShown.hidden = !cloudProject1ReturnShown.hidden;
+});
+
+document.getElementById("return-content-button-cloud1item1").addEventListener("click", function(event) {
+    event.preventDefault();
+    cloudProject1Shown.hidden = !cloudProject1Shown.hidden;
+    cloudProject1ReturnShown.hidden = !cloudProject1ReturnShown.hidden;
+});
+
+document.getElementById("second-cloud-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    cloudProject2Shown.hidden = !cloudProject2Shown.hidden;
+    cloudProject2ReturnShown.hidden = !cloudProject2ReturnShown.hidden;
+});
+
+document.getElementById("return-content-button-cloud1item2").addEventListener("click", function(event) {
+    event.preventDefault();
+    cloudProject2Shown.hidden = !cloudProject2Shown.hidden;
+    cloudProject2ReturnShown.hidden = !cloudProject2ReturnShown.hidden;
+});
+
+document.getElementById("third-cloud-button").addEventListener("click", function(event) {
+    event.preventDefault();
+    cloudProject3Shown.hidden = !cloudProject3Shown.hidden;
+    cloudProject3ReturnShown.hidden = !cloudProject3ReturnShown.hidden;
+});
+
+document.getElementById("return-content-button-cloud1item3").addEventListener("click", function(event) {
+    event.preventDefault();
+    cloudProject3Shown.hidden = !cloudProject3Shown.hidden;
+    cloudProject3ReturnShown.hidden = !cloudProject3ReturnShown.hidden;
+});
+
+frontendProjectContentShown = document.getElementById("project-content-selection-link-frontend");
+gameProjectContentShown = document.getElementById("project-content-selection-link-game");
+cloudProjectContentShown = document.getElementById("project-content-selection-link-cloud");
+
+
+

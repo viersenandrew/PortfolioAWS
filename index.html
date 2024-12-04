@@ -11,9 +11,9 @@
 </head>
 <body>
     <div class="navbar-container" id="navbar-container">
-        <div class="navbar-item-container" id="resume"><p class="resume-text"><a href="" class="navbar-link" id="resume-link">Resume</a></p></div>
-        <div class="navbar-item-container" id="portfolio"><p class="portfolio-text"><a href="" class="navbar-link" id="portfolio-link">Portfolio</a></p></div>
-        <div class="navbar-item-container" id="projects"><p class="projects-text"><a href="" class="navbar-link" id="projects-link">Projects</a></p></div>
+        <div class="navbar-item-container" id="resume"><p class="resume-text"><a href="/resume" class="navbar-link" id="resume-link">Resume</a></p></div>
+        <div class="navbar-item-container" id="portfolio"><p class="portfolio-text"><a href="/portfolio" class="navbar-link" id="portfolio-link">Portfolio</a></p></div>
+        <div class="navbar-item-container" id="projects"><p class="projects-text"><a href="/projects" class="navbar-link" id="projects-link">Projects</a></p></div>
         <div class="hamburger-container" id="hamburger-container">
             <a href="" class="hamburger-link" id="hamburger-link">
             <div class="hamburger"></div>
@@ -119,13 +119,13 @@ By blending technical skills with creative storytelling, Andrew approaches proje
                         <li>Conducted usability testing to refine functionality and enhance the user experience.</li>
                         <li>Authored technical documentation to support updates and scalability.</li>
                     </ul>
-                    <p><a href="" class="show-more-button" id="communicate-screenshot-button">More...</a></p>
+                    <p><a href="/more-communicate" class="show-more-button" id="communicate-screenshot-button">More...</a></p>
                 </div>
                 <div class="expanded-project-communicate" id="expanded-project-communicate" hidden>
                     <div class="screenshot-section" id="screenshot-section">
                         <div class="screenshot" id="screenshot">
                             <img src="" alt="project-screenshot">
-                            <p><a href="" class="show-less-button" id="communicate-less-button">Less</a></p>
+                            <p><a href="/less-communicate" class="show-less-button" id="communicate-less-button">Less</a></p>
                         </div>
                     </div>
 
@@ -145,13 +145,13 @@ By blending technical skills with creative storytelling, Andrew approaches proje
                         <li>Designed immersive game mechanics and developed an event-driven runtime system.</li>
                         <li>Documented development processes to facilitate future improvements.</li>
                     </ul>
-                    <p><a href="" class="show-more-button" id="isekai-screenshot-button">More...</a></p>
+                    <p><a href="/more-isekai" class="show-more-button" id="isekai-screenshot-button">More...</a></p>
                 </div>
                 <div class="expanded-project-isekai" id="expanded-project-isekai" hidden>
                     <div class="screenshot-section" id="screenshot-section">
                         <div class="screenshot" id="screenshot">
                             <img src="" alt="project-screenshot">
-                            <p><a href="" class="show-less-button" id="isekai-less-button">Less</a></p>
+                            <p><a href="/less-isekai" class="show-less-button" id="isekai-less-button">Less</a></p>
                         </div>
                     </div>
 
@@ -170,13 +170,13 @@ By blending technical skills with creative storytelling, Andrew approaches proje
                         <li>Conducted QA testing and facilitated communication between teams for smooth development.</li>
                         <li>Authored technical specifications and design documents to guide development efforts.</li>
                     </ul>
-                    <p><a href="" class="show-more-button" id="gate-screenshot-button">More...</a></p>
+                    <p><a href="/more-gate" class="show-more-button" id="gate-screenshot-button">More...</a></p>
                 </div>
                 <div class="expanded-project-gate" id="expanded-project-gate" hidden>
                     <div class="screenshot-section" id="screenshot-section">
                         <div class="screenshot" id="screenshot">
                             <img src="" alt="project-screenshot">
-                            <p><a href="" class="show-less-button" id="gate-less-button">Less</a></p>
+                            <p><a href="/less-gate" class="show-less-button" id="gate-less-button">Less</a></p>
                         </div>
                     </div>
 
@@ -204,23 +204,30 @@ By blending technical skills with creative storytelling, Andrew approaches proje
             </div>
             <div class="content-button-container" id="content-button-container">
                 <p class="content-selection-button">
-                    <a href="" class="content-selection-link" id="content-selection-link-frontend">Frontend</a>
+                    <a href="/frontend-portfolio" class="content-selection-link" id="content-selection-link-frontend">Frontend</a>
                 </p>
                 <p class="content-selection-button">
-                    <a href="" class="content-selection-link" id="content-selection-link-game">Game Design + Game Development</a>
+                    <a href="/game-portfolio" class="content-selection-link" id="content-selection-link-game">Game Design + Game Development</a>
                 </p>
                 <p class="content-selection-button">
-                    <a href="" class="content-selection-link" id="content-selection-link-cloud">Cloud Engineering</a>
+                    <a href="/cloud-portfolio" class="content-selection-link" id="content-selection-link-cloud">Cloud Engineering</a>
                 </p>
             </div>
+            
             <!-- Frontend Content -->
             <div class="hidden-portfolio-content-container">
                 <div class="hidden-portfolio-content" id="frontend-content" hidden>
-                    <div class="return-content-button" id="return-content-button-proj1item1" hidden><a href=""><p class="return-content-button-text">Reveal Personal Website</p></a></div>
+                    <div class="return-content-button" id="return-content-button-proj1item1" hidden>
+                        <p class="return-content-button-text">
+                        <a href="/reveal-personal-website">
+                        Reveal Personal Website
+                        </a>
+                    </p>
+                    </div>
                     <div class="frontend-object" id="frontend-project1">
                         <div class="portfolio-object-container" id="frontend-project1-item1">
                             <div class="portfolio-object-decription">
-                                <a href="" class="personal-website-buton" id="personal-website-button"><h1>Personal Webite</h1></a>
+                                <h1 class="personal-website-button"><a href="/personal-website" id="first-website-button">Personal Webite</a></h1>
                                 <p class="portfolio-object-text">
                                     It has come to my attention that it is a cardinal sin to use a website builder as a frontend developer
                                     so I set out to make my website as modern as possible while putting my personal design philosphy on display. 
@@ -244,10 +251,9 @@ By blending technical skills with creative storytelling, Andrew approaches proje
                                 
                             </div>
                         </div>
-                    </div>
-                        <div class="return-content-button" id="return-content-button-proj1item2" hidden><a href=""><p class="return-content-button-text">Reveal Second Portfolio Website</p></a></div>
+                        <div class="return-content-button" id="return-content-button-proj1item2" hidden><p class="return-content-button-text"><a href="/reveal-storefront-website">Reveal Second Portfolio Website</a></p></div>
                         <div class="portfolio-object-container" id="frontend-project1-item2">
-                            <a href="" class="personal-website-button" id="online-storefront-button"><h1>Online Storefront</h1></a>
+                            <h1><a href="/storefront-button" class="personal-website-button" id="second-website-button">Online Storefront</a></h1>
                             <div class="portfolio-object-decription">
                                 <p class="portfolio-object-text"></p>
                                 <p class="portfolio-object-text"></p>
@@ -255,61 +261,9 @@ By blending technical skills with creative storytelling, Andrew approaches proje
 
                             </div>
                         </div>
-                        <div class="return-content-button" id="return-content-button-proj1item3" hidden><a href=""><p class="return-content-button-text">Reveal Third Portfolio Website</p></a></div>
+                        <div class="return-content-button" id="return-content-button-proj1item3" hidden><p class="return-content-button-text"><a href="/reveal-third-website">Reveal Third Portfolio Website</a></p></div>
                         <div class="portfolio-object-container" id="frontend-project1-item3">
-                            <a href="" class="personal-website-button" id="third-website-button"><h1>Third Website</h1></a>
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="frontend-object" id="frontend-project2">
-                        <div class="portfolio-object-container" id="frontend-project2-item1">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="frontend-project2-item2">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="frontend-project2-item3">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="frontend-object" id="frontend-project3">
-                        <div class="portfolio-object-container" id="frontend-project3-item1">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="frontend-project3-item2">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="frontend-project3-item3">
+                            <h1><a href="/third-button" class="personal-website-button" id="third-website-button">Third Website</a></h1>
                             <div class="portfolio-object-decription">
                                 <p class="portfolio-object-text"></p>
                                 <p class="portfolio-object-text"></p>
@@ -322,72 +276,51 @@ By blending technical skills with creative storytelling, Andrew approaches proje
             </div>
             <!-- Game Content -->
             <div class="hidden-portfolio-content-container">
-                <div class                 <div class="game-object" id="game-project1">
+                <div class="hidden-portfolio-content" id="game-content" hidden>
+                    <div class="game-object">
+                        <div class="return-content-button" id="return-content-button-proj2item1" hidden>
+                            <p class="return-content-button-text">
+                                <a href="/reveal-project-isekai">Reveal Project Isekai</a>
+                            </p>
+                        </div>
                         <div class="portfolio-object-container" id="game-project1-item1">
+                            <h1>
+                                <a href="/project-isekai" class="personal-website-button">Project Isekai</a>
+                            </h1>
                             <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text">Test text</p>
+                                <p class="portfolio-object-text">Test Text</p>
+                                <p class="portfolio-object-text">Test Text</p>
                             </div>
+                        </div>
+                        <div class="return-content-button" id="return-content-button-proj2item2" hidden>
+                            <p class="return-content-button-text">
+                                <a href="/reveal-collision-tamer">Reveal Second Game</a>
+                            </p>
                         </div>
                         <div class="portfolio-object-container" id="game-project1-item2">
+                            <h1>
+                                <a href="/collision-tamer" class="personal-website-button" id="second-game-button">Collision Tamer</a>
+                            </h1>
                             <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text">Test text</p>
+                                <p class="portfolio-object-text">Test Text</p>
+                                <p class="portfolio-object-text">Test Text</p>
                             </div>
+                        </div>
+                        <div class="return-content-button" id="return-content-button-proj2item3" hidden>
+                            <p class="return-content-button-text">
+                                <a href="/reveal-collision-gate">Reveal Third Game</a>
+                            </p>
                         </div>
                         <div class="portfolio-object-container" id="game-project1-item3">
+                            <h1>
+                                <a href="/collision-gate" class="personal-website-button" id="third-game-button">Collision Gate</a>
+                            </h1>
                             <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="game-object" id="game-project2">
-                        <div class="portfolio-object-container" id="game-project2-item1">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="game-project2-item2">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="game-project2-item3">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="game-object" id="game-project3">
-                        <div class="portfolio-object-container" id="game-project3-item1">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="game-project3-item2">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="game-project3-item3">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text">Test text</p>
+                                <p class="portfolio-object-text">Test Text</p>
+                                <p class="portfolio-object-text">Test Text</p>
                             </div>
                         </div>
                     </div>
@@ -396,78 +329,59 @@ By blending technical skills with creative storytelling, Andrew approaches proje
             <!-- Cloud Content -->
             <div class="hidden-portfolio-content-container">
                 <div class="hidden-portfolio-content" id="cloud-content" hidden>
-                    <div class="cloud-object" id="cloud-project1">
+                    <div class="cloud-object">
+                        <!-- Project Nimbus -->
+                        <div class="return-content-button" id="return-content-button-cloud1item1" hidden>
+                            <p class="return-content-button-text">
+                                <a href="/reveal-project-nimbus">Reveal Project Nimbus</a>
+                            </p>
+                        </div>
                         <div class="portfolio-object-container" id="cloud-project1-item1">
+                            <h1>
+                                <a href="/project-nimbus" class="personal-website-button" id="first-cloud-button">Project Nimbus</a>
+                            </h1>
                             <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text">Test text</p>
+                                <p class="portfolio-object-text">Test Text</p>
+                                <p class="portfolio-object-text">Test Text</p>
                             </div>
+                        </div>
+                        <!-- Cloud Frontier -->
+                        <div class="return-content-button" id="return-content-button-cloud1item2" hidden>
+                            <p class="return-content-button-text">
+                                <a href="/reveal-cloud-frontier">Reveal Cloud Frontier</a>
+                            </p>
                         </div>
                         <div class="portfolio-object-container" id="cloud-project1-item2">
+                            <h1>
+                                <a href="/cloud-frontier" class="personal-website-button" id="second-cloud-button">Cloud Frontier</a>
+                            </h1>
                             <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text">Test text</p>
+                                <p class="portfolio-object-text">Test Text</p>
+                                <p class="portfolio-object-text">Test Text</p>
                             </div>
+                        </div>
+                        <div class="return-content-button" id="return-content-button-cloud1item3" hidden>
+                            <a href="/reveal-project-stratospheric-vision">
+                                <p class="return-content-button-text">Reveal Stratospheric Vision</p>
+                            </a>
                         </div>
                         <div class="portfolio-object-container" id="cloud-project1-item3">
+                            <h1>
+                            <a href="/project-stratospheric-vision" class="personal-website-button" id="third-cloud-button">
+                                Stratospheric Vision
+                            </a>
+                            </h1>
                             <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cloud-object" id="cloud-project2">
-                        <div class="portfolio-object-container" id="cloud-project2-item1">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="cloud-project2-item2">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="cloud-project2-item3">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cloud-object" id="cloud-project3">
-                        <div class="portfolio-object-container" id="cloud-project3-item1">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="cloud-project3-item2">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                            </div>
-                        </div>
-                        <div class="portfolio-object-container" id="cloud-project3-item3">
-                            <div class="portfolio-object-decription">
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
-                                <p class="portfolio-object-text"></p>
+                                <p class="portfolio-object-text">Test text</p>
+                                <p class="portfolio-object-text">Test Text</p>
+                                <p class="portfolio-object-text">Test Text</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
         <!-- Projects Content  -->
         <div class="projects-container" id="projects-container" hidden>
@@ -479,12 +393,180 @@ By blending technical skills with creative storytelling, Andrew approaches proje
             </div>
             <div class="aboutme" id="aboutme">
                 <p class="aboutme-text">
-                    Andrew Viersen combines expertise in game development, web design, and cloud computing to create innovative and engaging solutions. His background in developing open-world RPGs and complex gameplay systems with tools like Godot and C# gives him a unique perspective on design and development.
-    By blending technical skills with creative storytelling, Andrew approaches projects with a nuanced understanding that ensures both functionality and immersion. Whether building scalable web applications with AWS and JavaScript or crafting interactive game worlds, he delivers work that is both impactful and user-focused.
+                    Andrew Viersen combines expertise in game development, web design, and cloud computing to create innovative and engaging solutions. His background in designing and developing open-world RPGs and complex gameplay systems with tools like Godot and C# gives him a unique perspective on design and development.
+                    By blending technical skills with creative storytelling, Andrew approaches projects with a nuanced understanding that ensures both functionality and immersion. Whether building scalable web applications with AWS and JavaScript or crafting interactive game worlds, he delivers work that is both impactful and user-focused.
                 </p>
+            </div>
+            <div class="content-button-container" id="project-content-button-container">
+                <p class="content-selection-button">
+                    <a href="/frontend-projects-button" class="content-selection-link" id="project-content-selection-link-frontend">Frontend</a>
+                </p>
+                <p class="content-selection-button">
+                    <a href="/game-projects-button" class="content-selection-link" id="project-content-selection-link-game">Game Design + Game Development</a>
+                </p>
+                <p class="content-selection-button">
+                    <a href="/cloud-projects-button" class="content-selection-link" id="project-content-selection-link-cloud">Cloud Engineering</a>
+                </p>
+            </div>
+            <!-- Frontend Projects Section  -->
+            <div class="projects-frontend-objects" id="frontend-projects" hidden>
+                <div class="hidden-portfolio-content-container">
+                    <!-- Projects Section Frontend Content Item1 -->
+                    <div class="return-content-button" id="projects-frontend-return-item1" hidden>
+                            <a href="/projects-frontend-return-item1">
+                            Reveal Project
+                            </a>
+                    </div>
+                    <div class="projects-frontend-item1" id="projects-frontend-item1">
+                        <div class="projects-img-container" id="projects-frontend-item1-img-container">
+                            <a href="/projects-frontend-item1">
+                                <h1>
+                                    <a href="/projects-frontend-item1">
+                                        Personal Portfolio
+                                </h1>
+                                <img src="" alt="Personal Website Image" class="projects-frontend-item1-img" id="projects-frontend-item1-img">
+                                <p class="projects-frontend-item1-description">
+                                    Item Description Here
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Projects Section Frontend Content Item2 -->
+                    <div class="return-content-button" id="projects-frontend-return-item2" hidden>
+                        <a href="/projects-frontend-return-item2">
+                            Reveal Project
+                        </a>
+                    </div>
+                    <div class="projects-frontend-item2" id="projects-frontend-item2">
+                        <div class="projects-img-container" id="projects-frontend-item2-img-container">
+                            <a href="/projects-frontend-item2">
+                                <h1>
+                                    <a href="/projects-frontend-item2">
+                                        Second Website
+                                </h1>
+                                <img src="" alt="Second Website Image" class="projects-frontend-item2-img" id="projects-frontend-item2-img">
+                                <p class="projects-frontend-item2-description">
+                                    Item Description Here
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Projects Section Third Website Content Item3 -->
+                    <div class="return-content-button" id="projects-frontend-return-item3" hidden>
+                        <a href="/projects-frontend-return-item3">
+                        Reveal Project
+                        </a>
+                    </div>
+                    <div class="projects-frontend-item3" id="projects-frontend-item3">
+                        <div class="projects-img-container" id="projects-frontend-item3-img-container">
+                            <a href="/projects-frontend-item3">
+                                <h1>
+                                    <a href="/projects-frontend-item3">
+                                        Third Website
+                                </h1>
+                                <img src="" alt="Third Website Image" class="projects-frontend-item3-img" id="projects-frontend-item3-img">
+                                <p class="projects-frontend-item3-description">
+                                    Item Description Here
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Game Projects Section -->
+            <div class="projects-game-objects" id="game-projects" hidden>
+                <div class="hidden-portfolio-content-container">
+                    <!-- Projects Section Game Content Item1 -->
+                    <div class="return-content-button" id="projects-game-return-item1" hidden>
+                        <a href="/projects-game-return-item1">
+                        Reveal Project
+                        </a>
+                    </div>
+                    <div class="projects-game-item1" id="projects-game-item1">
+                        <a href="/projects-game-item1">
+                            Test Project
+                        </a>
+                    </div>
+                    <!-- Projects Section Game Content Item2 -->
+                    <div class="return-content-button" id="projects-game-return-item2" hidden>
+                        <p class="return-content-button-text">
+                            <a href="/projects-game-return-item2">
+                            Reveal Project
+                            </a>
+                        </p>
+                    </div>
+                    <div class="projects-game-item2" id="projects-game-item2">
+                        <p class="projects-game-item2-title">
+                            <a href="/projects-game-item2">
+                                Test Project
+                            </a>
+                        </p>
+                    </div>
+                    <!-- Projects Section Game Content Item3 -->
+                    <div class="return-content-button" id="projects-game-return-item3" hidden>
+                        <p class="return-content-button-text">
+                            <a href="/projects-game-return-item3">
+                            Reveal Project
+                            </a>
+                        </p>
+                    </div>
+                    <div class="projects-game-item3" id="projects-game-item3">
+                        <p class="projects-game-item3-title">
+                            <a href="/projects-game-item3">
+                                Test Project
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cloud Projects Section -->
+            <div class="projects-cloud-objects" id="cloud-projects" hidden>
+                <div class="hidden-portfolio-content-container">
+                    <!-- Projects Section Cloud Content Item1 -->
+                    <div class="return-content-button" id="projects-cloud-return-item1" hidden>
+                        <a href="/projects-cloud-return-item1">
+                        Reveal Project
+                        </a>
+                    </div>
+                    <div class="projects-cloud-item1" id="projects-cloud-item1">
+                        <a href="/projects-cloud-item1">
+                            Test Project
+                        </a>
+                    </div>
+                    <!-- Projects Section Cloud Content Item2 -->
+                    <div class="return-content-button" id="projects-cloud-return-item2" hidden>
+                        <p class="return-content-button-text">
+                            <a href="/projects-cloud-return-item2">
+                            Reveal Project
+                            </a>
+                        </p>
+                    </div>
+                    <div class="projects-cloud-item2" id="projects-cloud-item2">
+                        <p class="projects-cloud-item2-title">
+                            <a href="/projects-cloud-item2">
+                                Test Project
+                            </a>
+                        </p>
+                    </div>
+                    <!-- Projects Section Cloud Content Item3 -->
+                    <div class="return-content-button" id="projects-cloud-return-item3" hidden>
+                        <p class="return-content-button-text">
+                            <a href="/projects-cloud-return-item3">
+                            Reveal Project
+                            </a>
+                        </p>
+                    </div>
+                    <div class="projects-cloud-item3" id="projects-cloud-item3">
+                        <p class="projects-cloud-item3-title">
+                            <a href="/projects-cloud-item3">
+                                Test Project
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>  
     </div>
-    <script src="scripts.js"></script>
+<script src="scripts1.js"></script>
 </body>
 </html>
